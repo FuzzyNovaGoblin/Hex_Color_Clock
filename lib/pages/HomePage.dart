@@ -38,7 +38,6 @@ Duration duration = new Duration(seconds: 1);
   Widget build(BuildContext context) {
     return Material(
       color: Color.fromARGB(255, Conversion.h, Conversion.m, Conversion.s),
-      Colors
       child: Center(
         child: Text(Conversion.timeText,style: TextStyle(fontSize: 60.0),),
       ),
